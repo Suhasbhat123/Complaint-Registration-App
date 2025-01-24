@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:background="@color/white"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+
+        android:padding="12dp"
+        android:background="@color/cardbg"
+        >
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayname"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="User Name"
+            android:textColor="@color/headercolor"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayaddress"
+            android:textSize="25sp"
+            android:text="User address"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaydate"
+            android:textSize="25sp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaytype"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="Complaint type"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaycmp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:text="Complaint"
+            android:layout_marginTop="3dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
